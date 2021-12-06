@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MopositaStalin_AldazDavid_Ejercicio2</string>
+    <string name="button_text_restar">Restar</string>
+    <string name="edittext_text_num1">Número 1</string>
+    <string name="edittext_text_num2">Número 2</string>
+    <string name="edittext_text_result">Resultado</string>
+    <string name="edittext_text_pot1">Potencia 1</string>
+    <string name="edittext_text_pot2">Potencia 2</string>
 </resources>
