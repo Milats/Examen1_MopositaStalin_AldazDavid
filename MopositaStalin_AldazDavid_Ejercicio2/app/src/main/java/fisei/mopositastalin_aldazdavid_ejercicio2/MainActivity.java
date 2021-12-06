@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public String Restar(String num1, String pot1, String pot2, String num2){
         String result = "";
+        Double n1 = Double.parseDouble(num1);
+        Double n2 = Double.parseDouble(num2);
 
 
         return result;
