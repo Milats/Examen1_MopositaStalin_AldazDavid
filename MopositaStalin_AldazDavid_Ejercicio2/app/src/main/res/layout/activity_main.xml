@@ -89,6 +89,18 @@
         app:layout_constraintTop_toBottomOf="@+id/ma_etNumber2_sd"
         app:layout_constraintVertical_bias="0.078" />
 
+    <Button
+        android:id="@+id/ma_btnEjer1_sd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicEjer1"
+        android:text="Ejercicio 1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ma_etNumber2_sd"
+        app:layout_constraintVertical_bias="0.372" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"

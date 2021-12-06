@@ -2,9 +2,12 @@ package fisei.mopositastalin_aldazdavid_ejercicio2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+
+import fisei.mopositastalin_aldazdavid_ejercicio1.Ejercicio1;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,13 +26,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     public void onClicRestar(View view){
+        result.setText(Restar(number1.getText().toString() + "", pot1.getText().toString() + "",
+                number2.getText().toString() + "", pot2.getText().toString() + ""));
 
     }
-
-    public String Restar(String num1, String num2){
+    public String Restar(String num1, String pot1, String pot2, String num2){
         String result = "";
+
 
         return result;
     }
@@ -40,5 +44,10 @@ public class MainActivity extends AppCompatActivity {
         pot1 = findViewById(R.id.ma_etNumber1_sd);
         pot2 = findViewById(R.id.ma_etNumber2_sd);
         result = findViewById(R.id.ma_etResultr_sd);
+    }
+
+    public void onClicEjer1(View view){
+        Intent intent = new Intent(this, Ejercicio1.class);
+        startActivity(intent);
     }
 }
