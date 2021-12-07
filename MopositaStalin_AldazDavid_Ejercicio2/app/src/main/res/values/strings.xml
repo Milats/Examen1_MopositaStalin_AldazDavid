@@ -6,4 +6,14 @@
     <string name="edittext_text_result">Resultado</string>
     <string name="edittext_text_pot1">Potencia 1</string>
     <string name="edittext_text_pot2">Potencia 2</string>
+
+    <string name="titulo">Suma de Numeros Grandes</string>
+
+    <string name="et_valor1">Ingrese el primer Valor:</string>
+    <string name="et_valor2">Ingrese el primer Valor:</string>
+
+    <string name="button_Suma">Sumar</string>
+
+    <string name="tv_resultado">Resultado</string>
+    <string name="tv_respuesta">0</string>
 </resources>

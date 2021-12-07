@@ -33,13 +33,24 @@ public class MainActivity extends AppCompatActivity {
     }
     public String Restar(String num1, String pot1, String pot2, String num2){
         String result = "";
+        String c1 = "";
+        String c2 = "";
         Double n1 = Double.parseDouble(num1);
         Double n2 = Double.parseDouble(num2);
 
 
-        return result;
+
+        return "putZeros(num1, pot1)";
     }
 
+    public String putZeros(String num, String pot){
+        String numero = num;
+
+        for(int x = 1; x < Integer.parseInt(pot); x++){
+            numero += "0";
+        }
+        return numero;
+    }
     public void initializeComponents(){
         number1 = findViewById(R.id.ma_etNumber1_sd);
         number2 = findViewById(R.id.ma_etNumber2_sd);
