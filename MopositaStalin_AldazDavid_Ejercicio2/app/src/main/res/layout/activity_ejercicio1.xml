@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".Ejercicio1" >
 
     <TextView
         android:id="@+id/textView5"
@@ -67,5 +67,4 @@
             android:text="@string/tv_respuesta"
             android:textSize="20sp" />
     </LinearLayout>
-
 </LinearLayout>

@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import fisei.mopositastalin_aldazdavid_ejercicio1.Ejercicio1;
-
 public class MainActivity extends AppCompatActivity {
 
     public EditText number1;
@@ -40,13 +38,13 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        return "putZeros(num1, pot1)";
+        return putZeros(num1, pot1);
     }
 
     public String putZeros(String num, String pot){
         String numero = num;
 
-        for(int x = 1; x < Integer.parseInt(pot); x++){
+        for(int x = 0; x < Integer.parseInt(pot); x++){
             numero += "0";
         }
         return numero;

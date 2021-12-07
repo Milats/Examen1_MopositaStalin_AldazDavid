@@ -1,13 +1,10 @@
-#Mon Dec 06 18:59:55 COT 2021
-path.3=2/classes.dex
-path.2=1/classes.dex
-path.1=0/classes.dex
-path.0=classes.dex
-base.3=D\:\\israe\\Proyectos\\Examen1_MopositaStalin_AldazDavid\\MopositaStalin_AldazDavid_Ejercicio2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+#Mon Dec 06 19:17:39 COT 2021
 base.2=D\:\\israe\\Proyectos\\Examen1_MopositaStalin_AldazDavid\\MopositaStalin_AldazDavid_Ejercicio2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+path.2=1/classes.dex
 base.1=D\:\\israe\\Proyectos\\Examen1_MopositaStalin_AldazDavid\\MopositaStalin_AldazDavid_Ejercicio2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+path.1=0/classes.dex
 base.0=D\:\\israe\\Proyectos\\Examen1_MopositaStalin_AldazDavid\\MopositaStalin_AldazDavid_Ejercicio2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
+path.0=classes.dex

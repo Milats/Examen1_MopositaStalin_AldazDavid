@@ -19,6 +19,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MopositaStalin_AldazDavid_Ejercicio2" >
         <activity
+            android:name="fisei.mopositastalin_aldazdavid_ejercicio2.Ejercicio1"
+            android:exported="false" />
+        <activity
             android:name="fisei.mopositastalin_aldazdavid_ejercicio1.Ejercicio1"
             android:exported="false" />
         <activity
