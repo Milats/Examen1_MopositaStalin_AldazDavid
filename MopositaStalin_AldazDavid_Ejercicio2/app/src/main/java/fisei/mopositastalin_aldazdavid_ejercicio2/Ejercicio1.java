@@ -22,10 +22,12 @@ public class Ejercicio1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_ejercicio1);
 
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-
+        editText_Valor1 = findViewById(R.id.editTextValor1);
+        editText_Valor2 = findViewById(R.id.editTextValor2);
+        tv_Respuesta = findViewById(R.id.textViewRespueta);
+        button_Suma = findViewById(R.id.buttonSuma);
 
     }
 
