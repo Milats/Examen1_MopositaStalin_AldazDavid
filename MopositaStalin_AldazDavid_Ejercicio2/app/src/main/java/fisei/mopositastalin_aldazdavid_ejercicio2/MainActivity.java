@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         initializeComponents();
-
     }
 
     public void onClicRestar(View view){
@@ -31,20 +30,31 @@ public class MainActivity extends AppCompatActivity {
     }
     public String Restar(String num1, String pot1, String pot2, String num2){
         String result = "";
-        String c1 = "";
-        String c2 = "";
+        String c1 = putZeros(num1, pot1);
+        String c2 = putZeros(num2, pot2);
         Double n1 = Double.parseDouble(num1);
         Double n2 = Double.parseDouble(num2);
+        int val1 , val2;
+        int resultDigit = 0;
+        int limit = num2.length() + Integer.parseInt(pot2);
 
-
-
-        return putZeros(num1, pot1);
+        for(int x = limit; x > 0; x = x - 1){
+            val1 = Integer.parseInt(c1.charAt(limit - 1) + "");
+            val2 = Integer.parseInt(c2.charAt(limit - 1) + "");
+            if(val1 < val2){
+                resultDigit = val2 - val1;
+            } else{
+                resultDigit =  val1 - val2;
+            }
+            result = resultDigit + result + "";
+        }
+        return result;
     }
 
     public String putZeros(String num, String pot){
         String numero = num;
 
-        for(int x = 0; x < Integer.parseInt(pot); x++){
+        for(int x = 0; x <= Integer.parseInt(pot); x++){
             numero += "0";
         }
         return numero;

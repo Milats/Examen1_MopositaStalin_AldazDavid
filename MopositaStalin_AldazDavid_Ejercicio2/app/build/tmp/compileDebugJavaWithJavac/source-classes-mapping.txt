@@ -1,6 +1,6 @@
 fisei/mopositastalin_aldazdavid_ejercicio2/BuildConfig.java
  fisei.mopositastalin_aldazdavid_ejercicio2.BuildConfig
-fisei/mopositastalin_aldazdavid_ejercicio2/MainActivity.java
- fisei.mopositastalin_aldazdavid_ejercicio2.MainActivity
 fisei/mopositastalin_aldazdavid_ejercicio2/Ejercicio1.java
  fisei.mopositastalin_aldazdavid_ejercicio2.Ejercicio1
+fisei/mopositastalin_aldazdavid_ejercicio2/MainActivity.java
+ fisei.mopositastalin_aldazdavid_ejercicio2.MainActivity
